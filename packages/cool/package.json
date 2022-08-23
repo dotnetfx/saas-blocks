@@ -1,0 +1,8 @@
+{
+  "name": "cool",
+  "version": "1.0.0",
+  "description": "Sample component library",
+  "main": "index.js",
+  "author": "DotNetFx",
+  "license": "MIT"
+}

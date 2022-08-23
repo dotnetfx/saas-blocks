@@ -1,0 +1,16 @@
+{
+    "name": "monorepo",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "start:web": "yarn --cwd apps/web run dev",
+        "start:app": "yarn --cwd apps/mobile run start",
+        "start:app:ios": "yarn --cwd apps/mobile run ios",
+        "start:app:android": "yarn --cwd apps/mobile run android",
+        "start:components": "yarn --cwd packages/components run start"
+    }
+}
