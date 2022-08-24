@@ -9,7 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "cool": "*",
+    "components": "*",
     "expo": "~46.0.9",
     "expo-status-bar": "~1.4.0",
     "native-base": "^3.4.13",

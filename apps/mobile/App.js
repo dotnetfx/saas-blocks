@@ -1,6 +1,6 @@
 import React from "react";
 import { NativeBaseProvider, Text, Box } from "native-base";
-import { greeting, ColorModeSwitch } from 'cool';
+import { ColorModeSwitch } from 'components';
 
 export default function App() {
   return (
@@ -9,10 +9,11 @@ export default function App() {
         _dark={{ bg: "blueGray.900" }}
         _light={{ bg: "blueGray.50" }}
       >
-        <ColorModeSwitch />
+       <ColorModeSwitch />
         <Text color="blue.500" fontSize="xl"
           _dark={{ color: "blueGray.200" }}
-          _light={{ color: "blueGray.800" }}>{greeting}
+          _light={{ color: "blueGray.800" }}>
+          Hello World...
         </Text>
       </Box>
     </NativeBaseProvider>

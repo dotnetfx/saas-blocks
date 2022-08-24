@@ -1,5 +1,5 @@
 {
-    "name": "monorepo",
+    "name": "saas-blocks",
     "version": "1.0.0",
     "private": true,
     "workspaces": [
@@ -11,6 +11,6 @@
         "start:app": "yarn --cwd apps/mobile run start",
         "start:app:ios": "yarn --cwd apps/mobile run ios",
         "start:app:android": "yarn --cwd apps/mobile run android",
-        "start:components": "yarn --cwd packages/components run start"
+        "build:components": "yarn --cwd packages/components run build"
     }
 }
