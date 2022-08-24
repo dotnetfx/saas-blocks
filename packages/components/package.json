@@ -16,6 +16,6 @@
     "@babel/preset-react": "^7.18.6"
   },
   "scripts": {
-    "build": "npx babel src -d lib"
+    "build": "npx babel src -d dist"
   }
 }
