@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, Box } from "native-base";
-import { ColorSwitch } from 'components';
+import { ColorSwitch, CallToAction } from 'components';
 
 // Start editing here, save and see your changes.
 export default function App() {
@@ -10,10 +10,8 @@ export default function App() {
       _light={{ bg: "blueGray.50" }}
     >
       <ColorSwitch />
-      <Text color="blue.500" fontSize="xl"
-          _dark={{ color: "blueGray.200" }}
-          _light={{ color: "blueGray.800" }}>Hello World...
-      </Text>
+      <CallToAction />
+
     </Box>
   )
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/globals.css";
-import { NativeBaseProvider } from "native-base";
+
+import { SaasBlocksProvider, ColorSwitch } from 'components';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NativeBaseProvider>
+    <SaasBlocksProvider>
       <Component {...pageProps} />
-    </NativeBaseProvider>
+    </SaasBlocksProvider>
   );
 }
 

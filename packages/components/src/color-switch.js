@@ -15,7 +15,7 @@ export default function ColorSwitch() {
                 top={12}
                 right={8}
                 onPress={toggleColorMode}
-                icon={colorMode === "dark" ? <SunIcon /> : <MoonIcon />}
+                icon={colorMode === "dark" ? <SunIcon color="primary.500" /> : <MoonIcon color="primary.500" />}
                 accessibilityLabel="Color Mode Switch"
             />
         </Tooltip>
