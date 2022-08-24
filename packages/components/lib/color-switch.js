@@ -26,7 +26,11 @@ function ColorSwitch() {
     top: 12,
     right: 8,
     onPress: toggleColorMode,
-    icon: colorMode === "dark" ? /*#__PURE__*/_react["default"].createElement(_nativeBase.SunIcon, null) : /*#__PURE__*/_react["default"].createElement(_nativeBase.MoonIcon, null),
+    icon: colorMode === "dark" ? /*#__PURE__*/_react["default"].createElement(_nativeBase.SunIcon, {
+      color: "primary.500"
+    }) : /*#__PURE__*/_react["default"].createElement(_nativeBase.MoonIcon, {
+      color: "primary.500"
+    }),
     accessibilityLabel: "Color Mode Switch"
   }));
 }
