@@ -1,1 +1,1 @@
-export { default as ColorModeSwitch } from './src/color-switch'
+export { default as ColorSwitch } from './src/color-switch'

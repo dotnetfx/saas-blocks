@@ -1,7 +1,7 @@
 import React from "react";
 import { useColorMode, Tooltip, IconButton, SunIcon, MoonIcon } from "native-base";
 
-export default function ColorModeSwitch() {
+export default function ColorSwitch() {
     const { colorMode, toggleColorMode } = useColorMode();
     return (
         <Tooltip

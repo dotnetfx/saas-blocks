@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, Box } from "native-base";
-import { ColorModeSwitch } from 'components';
+import { ColorSwitch } from 'components';
 
 // Start editing here, save and see your changes.
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
       _dark={{ bg: "blueGray.900" }}
       _light={{ bg: "blueGray.50" }}
     >
-      <ColorModeSwitch />
+      <ColorSwitch />
       <Text color="blue.500" fontSize="xl"
           _dark={{ color: "blueGray.200" }}
           _light={{ color: "blueGray.800" }}>Hello World...
