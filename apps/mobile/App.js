@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Box } from "native-base";
+import { Box } from "native-base";
 import { SaasBlocksProvider, CallToAction, ColorSwitch } from 'components';
 
 export default function App() {

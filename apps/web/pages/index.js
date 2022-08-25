@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Box } from "native-base";
+import { Box } from "native-base";
 import { ColorSwitch, CallToAction } from 'components';
 
 // Start editing here, save and see your changes.
