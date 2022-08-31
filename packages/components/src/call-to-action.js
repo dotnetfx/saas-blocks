@@ -5,11 +5,8 @@ export default function CallToAction({ actionText, actionComponent, _heading, on
     const [_actionText, setActionText] = useState(actionText || "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ligula auctor, sollicitudin dui.")
     const [_buttonText, setButtonText] = useState(buttonText || "Button")
 
-    //const _actionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ligula auctor, sollicitudin dui."
-    //const _buttonText = "Button"
-
-    //useEffect(() => { if (actionText) setActionText(actionText) }, [actionText])
-    //useEffect(() => { if (buttonText) setButtonText(buttonText) }, [buttonText])
+    useEffect(() => { if (actionText) setActionText(actionText) }, [actionText])
+    useEffect(() => { if (buttonText) setButtonText(buttonText) }, [buttonText])
 
     return (
         <Center px="5" py="8" {...props}>
