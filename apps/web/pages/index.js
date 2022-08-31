@@ -5,7 +5,7 @@ import { ColorSwitch, CallToAction } from 'components';
 // Start editing here, save and see your changes.
 export default function App() {
   return (
-    <Box flex h="full" justifyContent="center" alignItems="center"
+    <Box flex="1" h="full" justifyContent="center" alignItems="center"
       _dark={{ bg: "blueGray.900" }}
       _light={{ bg: "blueGray.50" }}
     >

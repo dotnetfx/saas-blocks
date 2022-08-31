@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { Flex, Center, View, Heading, Button } from 'native-base'
 
 export default function CallToAction({ actionText, actionComponent, _heading, onAction, buttonText, buttonComponent, _button, ...props }) {
-    //const [_actionText, setActionText] = useState(actionText || "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ligula auctor, sollicitudin dui.")
-    //const [_buttonText, setButtonText] = useState(buttonText || "Button")
+    const [_actionText, setActionText] = useState(actionText || "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ligula auctor, sollicitudin dui.")
+    const [_buttonText, setButtonText] = useState(buttonText || "Button")
 
-    const _actionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ligula auctor, sollicitudin dui."
-    const _buttonText = "Button"
+    //const _actionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in ligula auctor, sollicitudin dui."
+    //const _buttonText = "Button"
 
     //useEffect(() => { if (actionText) setActionText(actionText) }, [actionText])
     //useEffect(() => { if (buttonText) setButtonText(buttonText) }, [buttonText])

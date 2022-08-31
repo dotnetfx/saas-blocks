@@ -5,7 +5,7 @@ import { SaasBlocksProvider, CallToAction, ColorSwitch } from 'components';
 export default function App() {
   return (
     <SaasBlocksProvider>
-      <Box flex h="full" justifyContent="center" alignItems="center"
+      <Box flex="1" h="full" justifyContent="center" alignItems="center"
         _dark={{ bg: "blueGray.900" }}
         _light={{ bg: "blueGray.50" }}
       >
